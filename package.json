@@ -5,7 +5,8 @@
   "repository": "git@github.com:palmerj3/yarntest.git",
   "author": "Jason Palmer <jason@jason-palmer.com>",
   "engines": {
-    "node": ">=6"
+    "node": ">=6",
+    "yarn": "<0.17.0"
   },
   "license": "MIT",
   "dependencies": {
