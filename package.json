@@ -1,0 +1,17 @@
+{
+  "name": "yarntest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:palmerj3/yarntest.git",
+  "author": "Jason Palmer <jason@jason-palmer.com>",
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1"
+  },
+  "scripts": {
+    "test": "if [ -d node_modules/react ] then exit 0 else exit 1 fi"
+  }
+}
